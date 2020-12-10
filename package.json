@@ -1,0 +1,20 @@
+{
+  "name": "krs-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.11",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "avro-js": "^1.10.1",
+    "level": "^6.0.1",
+    "pgsql-ast-parser": "^1.3.6",
+    "readline": "^1.3.0"
+  },
+  "scripts": {
+    "test": "ts-node src/test.ts"
+  }
+}
